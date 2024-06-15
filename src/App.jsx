@@ -1,7 +1,8 @@
-import LoginForm from "./components/LoginForm";
+// import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
 
 export default function App() {
-  return <LoginForm />;
+  return <RegisterForm />;
 }
 
 // import UserDetails from "./components/UserDetails";
