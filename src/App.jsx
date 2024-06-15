@@ -22,21 +22,18 @@ export default function App() {
       username: "richard",
       email: "richard@mail.com",
     },
+    {
+      id: 3,
+      username: "user3",
+      email: "user3@mail.com",
+    },
   ];
   return (
     <>
       {mockUsers.map((user) => {
         return (
           <div key={user.id}>
-            <span>ID: {user.id} </span>
-            <span>
-              {" "}
-              <b>Username</b> : {user.username}{" "}
-            </span>
-            <span>
-              <b>Email</b>: {user.email}{" "}
-            </span>
-            <hr />
+           
           </div>
         );
       })}

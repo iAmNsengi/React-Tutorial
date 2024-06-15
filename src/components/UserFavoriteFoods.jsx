@@ -7,7 +7,7 @@ export function UserFavoriteFoods() {
     <div>
       <span className={styles.foodsTitle}>User Favorite Foods, ok</span>
     </div>,
-    <ul>
+    <ul className={styles.ulContainer}>
       <li>Sushi</li>
       <li>Pizza</li>
       <li>Mediteraneean Food</li>
