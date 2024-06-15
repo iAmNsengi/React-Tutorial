@@ -1,3 +1,9 @@
+import LoginForm from "./components/LoginForm";
+
+export default function App() {
+  return <LoginForm />;
+}
+
 // import UserDetails from "./components/UserDetails";
 
 // export default function App() {
@@ -39,19 +45,25 @@
 //     </div>
 //   );
 // }
-export default function App() {
-  const USER_STATUS = "NOT_VERIFIED";
-  if (USER_STATUS == "NOT_VERIFIED") {
-    return (
-      <div>
-        <span>You are not verified. Please verify your Email.</span>
-      </div>
-    );
-  } else if (USER_STATUS === "VERIFIED") {
-    return (
-      <div>
-        <span>You are verified. Congrats</span>
-      </div>
-    );
-  }
-}
+// export default function App() {
+//   const USER_STATUS = "NOT_VERIFIED";
+//   if (USER_STATUS == "NOT_VERIFIED") {
+//     return (
+//       <div>
+//         <span>You are not verified. Please verify your Email.</span>
+//       </div>
+//     );
+//   } else if (USER_STATUS === "VERIFIED") {
+//     return (
+//       <div>
+//         <span>You are verified. Congrats</span>
+//       </div>
+//     );
+//   } else {
+//     return (
+//       <div>
+//         <span>Your account is disabled!m</span>
+//       </div>
+//     );
+//   }
+// }
