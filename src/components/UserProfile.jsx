@@ -2,9 +2,6 @@ import PropTypes from "prop-types";
 import { UserFavoriteFoods } from "./UserFavoriteFoods";
 import { UserUsername } from "./UserUsername";
 export function UserProfile(props) {
-  {
-    props.callMe();
-  }
   return (
     <div>
       <UserUsername username={props.username} />
